@@ -82,3 +82,47 @@ header{
 	margin: 5%;
 	padding: 0;
 }
+#login {
+position: absolute;
+width: 200px;
+height: 200px;
+top: 2%;
+left: 80%;
+margin-right: 100px;
+}
+form {
+    margin: 0 auto;
+    margin-top: 0px;
+}
+label {
+    color: #555;
+    display: inline-block;
+    margin-left: 0px;
+    padding-top: 1px;
+    font-size: 12px;
+}
+p a {
+    font-size: 11px;
+    color: #aaa;
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+p a:hover {
+    color: #555;
+}
+input {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    outline: none;
+}
+input[type=text],
+input[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 200px;
+    height: 20px;
+}
