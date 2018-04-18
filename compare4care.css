@@ -16,7 +16,12 @@ body {
   background: linear-gradient(to bottom, rgba(231, 56, 39, 1) 0%, rgba(240, 47, 23, 1) 8%, rgba(246, 41, 12, 1) 12%, rgba(241, 111, 92, 1) 20%, rgba(252, 248, 247, 1) 30%, rgba(252, 248, 247, 1) 100%), fixed;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', endColorstr='#fcf8f7', GradientType=0);
 }
-
+.btn-group {
+position: absolute;
+ left: 49.9%;
+ -webkit-transform: translateX(-50%);
+ transform: translateX(-50%);
+}
 .btn-group button {
   background-color: #FF0000;
   border: 1px solid;
@@ -29,7 +34,9 @@ body {
   cursor: pointer;
   float: left;
 }
-
+header{
+  height: 15%;
+}
 .btn-group button:not(:last-child) {
   border-right: none;
 }
@@ -39,12 +46,17 @@ body {
 }
 
 .mapouter {
+  position: absolute;
+   left: 49.9%;
+   -webkit-transform: translateX(-50%);
+   transform: translateX(-50%);
   overflow: hidden;
   height: 500px;
   width: 600px;
 }
 
 .gmap_canvas {
+  display: inline-block;
   background: none !important;
   height: 500px;
   width: 600px;
