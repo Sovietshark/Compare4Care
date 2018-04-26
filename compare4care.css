@@ -8,49 +8,43 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background: rgba(242, 242, 242);
+}
+
+#header {
+  width: 100%;
+ text-align: center;
+
 
 }
-.btn-group {
-position: absolute;
- left: 30%;
- -webkit-transform: translateX(-50%);
- transform: translateX(-50%);
-}
-.btn-group button {
-  background-color: #FF0000;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+
+#nav{
+  height:20px;
+  padding-bottom: 25px;
   text-align: center;
+  background-color: #FF0000;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+#nav a{
+  position: relative;
+  padding: 14px 16px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  float: left;
+  margin-top: 10px;
+  height:20px;
+  color: #f2f2f2;
 }
-header{
-  height: 15%;
-}
-#bannerbuttongroup{
-	width: 100%; 
-	height: 5.3%;
-    border-style: solid;
-    border-color: rgba(255, 1, 1);
-	background: rgba(255, 1, 1); 
-}
-.btn-group button:not(:last-child) {
-  border-right: none;
-}
-
-.btn-group button:hover {
+#nav a:hover{
   background-color: #8B0000;
+}
+#nav a:active{
+  background-color: white;
 }
 
 .mapouter {
   position: absolute;
-   left: 49.9%;
-   -webkit-transform: translateX(-50%);
-   transform: translateX(-50%);
+  left: 49.9%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
   overflow: hidden;
   height: 500px;
   width: 90%;
@@ -63,105 +57,53 @@ header{
   height: 500px;
   width: 1500px;
 }
-#banner{
-    width: 100%; height: 17%;
-    border-style: solid;
-    border-color: rgba(242, 242, 242);
-	background: rgba(242, 242, 242); 
+
+ #login {
+  position: absolute;
+  height: 20%;
+  top: 2%;
+  right: 0;
+
 }
 
-#bannerimage{
-	width: 10%;
-	height: 10%;
-	margin: 5%;
-	padding: 0;
-}
-#login {
-position: absolute;
-width: 200px;
-height: 200px;
-top: 2%;
-left: 80%;
-margin-right: 100px;
-}
 form {
-    margin: 0 auto;
-    margin-top: 0px;
+  margin: 0 auto;
+  margin-top: 0px;
 }
+
 label {
-    color: #555;
-    display: inline-block;
-    margin-left: 0px;
-    padding-top: 1px;
-    font-size: 12px;
+  color: #555;
+  display: inline-block;
+  margin-left: 0px;
+  padding-top: 1px;
+  font-size: 12px;
 }
-p a {
-    font-size: 11px;
-    color: #aaa;
-    float: right;
-    margin-top: 0px;
-    margin-right: 10px;
-}
-p a:hover {
-    color: #555;
-}
+
+
+
 input {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 12px;
-    outline: none;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  outline: none;
 }
-input[type=text],
-input[type=password] {
-    color: #777;
-    padding-left: 10px;
-    margin: 10px;
-    margin-top: 2px;
-    margin-left: 2px;
-    width: 200px;
-    height: 20px;
+
+input[type=text], input[type=password] {
+  color: #777;
+  padding-left: 10px;
+  margin: 10px;
+  margin-top: 2px;
+  margin-left: 2px;
+  width: 200px;
+  height: 20px;
 }
-.Surgerybanner{
-    width: 100%;
-	height: 20%;
-    border-style: solid;
-    border-color: black;
-	background: rgba(242, 242, 242);
-}
-#typeofsurg{
-	width: 200px;
-	height: 200px;
-	top: 10%;
-	left: 10%;
-	margin-right: 10%;
-}
-#Typeofsurgery{
-	width: 200px;
-	height: 25px;
-	top: 10%;
-	margin-left: 30%;
-}
-.optype{
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 16px;
-    outline: none;
-	margin-left: 30%;
-}
-#Insuranceplans{
-	width: 200px;
-	height: 25px;
-	top: 10%;
-	margin-left: 30%;
-}
-.insurtype{
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 16px;
-    outline: none;
-	margin-left: 30%;
-}
-#typeofinsur{
-	width: 200px;
-	height: 200px;
-	top: 10%;
-	left: 10%;
-	margin-right: 10%;
+
+#Surgerybanner {
+  text-align: center;
+  right: 0;
+  height: 20%;
+  z-index: 99;
+  left: 0;
+  border-style: solid;
+  border-color: black;
+  background: rgba(242, 242, 242);
 }
