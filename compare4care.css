@@ -52,7 +52,7 @@ header{
    -webkit-transform: translateX(-50%);
    transform: translateX(-50%);
   overflow: hidden;
-  height: 500px;
+  height: 80%;
   width: 90%;
   margin-bottom: 20%;
 }
@@ -71,8 +71,8 @@ header{
 }
 
 #bannerimage{
-	width: 10%;
-	height: 10%;
+	width: 1%;
+	height: 1%;
 	margin: 5%;
 	padding: 0;
 }
@@ -122,7 +122,7 @@ input[type=password] {
 }
 .Surgerybanner{
     width: 100%;
-	height: 20%;
+	height: 25%;
     border-style: solid;
     border-color: black;
 	background: rgba(242, 242, 242);
@@ -130,7 +130,7 @@ input[type=password] {
 #typeofsurg{
 	width: 200px;
 	height: 200px;
-	top: 10%;
+	top: 20%;
 	left: 10%;
 	margin-right: 10%;
 }
@@ -161,7 +161,85 @@ input[type=password] {
 #typeofinsur{
 	width: 200px;
 	height: 200px;
-	top: 10%;
-	left: 10%;
-	margin-right: 10%;
+	top: 35%;
+	left: .25%;
+	position: absolute;
 }
+#Insuranceplan{
+	width: 200px;
+	height: 25px;
+	top: 10%;
+	margin-left: 30%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.insurtypeplan{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    outline: none;
+	margin-left: 40%;
+}
+#insurplan{
+	width: 200px;
+	height: 200px;
+	top: 37%;
+	left: 20%;
+	position: absolute;
+}
+.comparebutton{
+	top: 44%;
+	left: 45%;
+	position: absolute;
+	width: 5%; 
+	height: 3%;
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.comparebutton:hover {
+  background-color: #8B0000;
+}
+.container {
+  position: relative;
+  width: 90.5%;
+  position: absolute;
+   left: 49.9%;
+   -webkit-transform: translateX(-50%);
+   transform: translateX(-50%);
+}
+
+.container img {
+  width: 100%;
+  height: 80%;
+}
+
+.container .btn {
+  position: absolute;
+  top: 54.1%;
+  left: 52.5%;
+  background-color: #FF0000;
+  padding: 9px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.Writeup {
+	position: absolute;
+	top: 135%;
+	left: 10%;
+}
+.paragraph {
+	position: absolute;
+	top: 40%;
+	left: 5%;
+}
+.paragraph2 {
+	position: absolute;
+	top: 40%;
+	left: 100%;
